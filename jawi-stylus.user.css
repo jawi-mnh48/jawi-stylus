@@ -2,7 +2,7 @@
 @name         Jawi Stylus
 @namespace    https://github.com/jawi-mnh48
 @description  Add support to display Jawi properly across websites, install Amiri font for it to work properly
-@version      1.0.0
+@version      1.1.0
 @homepageURL  https://github.com/jawi-mnh48/jawi-stylus
 @supportURL   https://github.com/jawi-mnh48/jawi-stylus/issues
 @updateURL    https://raw.githubusercontent.com/jawi-mnh48/jawi-stylus/main/jawi-stylus.user.css
@@ -25,7 +25,28 @@
 }
 
 @font-face {
+  font-family: "Segoe";
+  src: local('Amiri');
+  font-weight: 100;
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+
+@font-face {
   font-family: "Segoe UI";
+  src: local('Amiri');
+  font-weight: 100;
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+
+@font-face {
+  font-family: "Meiryo";
+  src: local('Amiri');
+  font-weight: 100;
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+
+@font-face {
+  font-family: "Meiryo UI";
   src: local('Amiri');
   font-weight: 100;
   unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
